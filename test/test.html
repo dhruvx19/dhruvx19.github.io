@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Name and Color</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .name {
+            font-size: 2em;
+            color: #4CAF50; /* Change this to any color */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="name">Your Name Here</h1>
+
+    <script>
+        // You can dynamically change the color and name using JavaScript
+        const nameElement = document.querySelector('.name');
+        nameElement.textContent = "John Doe"; // Change name here
+        nameElement.style.color = "blue"; // Change color here
+    </script>
+</body>
+</html>
